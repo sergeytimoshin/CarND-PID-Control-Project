@@ -1,6 +1,16 @@
 # CarND-Controls-PID
 Self-Driving Car Engineer Nanodegree Program
 
+## Result: [YouTube video: PID Control](https://youtu.be/Jl7BGD89JYE)
+
+## Implementation
+
+Two PID Controllers are used to separately control steer and throttle.
+
+## Parameter / Behavior Tuning
+
+PID parameters for throttle and steering configured with trial & error.
+
 ---
 
 ## Dependencies
