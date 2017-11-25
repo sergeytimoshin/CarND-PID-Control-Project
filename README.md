@@ -11,6 +11,14 @@ Two PID Controllers are used to separately control steer and throttle.
 
 PID parameters for throttle and steering configured with trial & error.
 
+Tune steering.
+1. When we set all parameters to zero, car should drive straight.
+2. Then we tune Proportional parameter and car trying to following the road, but at some point starts overshooting.
+3. Then we add Derivative to prevent overshooting.
+4. Then we add Integral to tiny smooth out turns on the road.
+
+Final PID = (0.1, 0.001, 2.5).
+
 ---
 
 ## Dependencies
