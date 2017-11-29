@@ -5,13 +5,13 @@ Self-Driving Car Engineer Nanodegree Program
 
 ## Implementation
 
-Two PID Controllers are used to separately control steer and throttle.
+We use one PID Controller to control steer.
 
 ## Parameter / Behavior Tuning
 
-PID parameters for throttle and steering configured with trial & error.
+PID parameters for steering configured with trial and error.
 
-Tune steering.
+How to tune PID steer parameters, our approach.
 1. When we set all parameters to zero, car should drive straight.
 2. Then we tune Proportional parameter and car trying to following the road, but at some point starts overshooting.
 3. Then we add Derivative to prevent overshooting.
